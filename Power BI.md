@@ -50,7 +50,7 @@
 
   Construir las siguientes visualizaciones:
 
-  ![](Images/Tablas y Matrices.PNG)
+  ![](Images/TablasMatrices.PNG)
 
   
 
@@ -127,7 +127,7 @@
 * **Mapas:** 
 
   Fuente: [P1-SuperStoreUS-2015.xlsx
-  ](Datos/1-SuperStoreUS-2015.xlsx
+  ](Datos/P1-SuperStoreUS-2015.xlsx
   )
 
   Construir el siguiente grafico:
