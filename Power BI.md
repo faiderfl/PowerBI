@@ -1,4 +1,4 @@
-Power BI
+# <u>**Power BI**</u>
 
 1. Primeros Pasos
 
@@ -38,7 +38,7 @@ Power BI
 
 4. Visualizaciones: 
 
-   Fuente de Datos:  [P1-OfficeSupplies.csv](Datos\P1-OfficeSupplies.csv)
+   Fuente de Datos:  [P1-OfficeSupplies.csv](Datos/P1-OfficeSupplies.csv)
 
    Actividades:
 
@@ -88,7 +88,7 @@ Power BI
 
 * **Series de tiempo:**
 
-  Fuente:  [P1-Long-Term-Unemployment-Statistics.xlsx](P1-Long-Term-Unemployment-Statistics.xlsx)
+  Fuente:  [P1-Long-Term-Unemployment-Statistics.xlsx](Datos/P1-Long-Term-Unemployment-Statistics.xlsx)
 
   Importar los datos. Revisar los pasos que automáticamente hace Power BI.
 
@@ -127,7 +127,7 @@ Power BI
 * **Mapas:** 
 
   Fuente: [P1-SuperStoreUS-2015.xlsx
-  ](PDatos/1-SuperStoreUS-2015.xlsx
+  ](Datos/1-SuperStoreUS-2015.xlsx
   )
 
   Construir el siguiente grafico:
@@ -144,7 +144,7 @@ Power BI
 
 * Joins: 
 
-  Fuente: [AmazingMartEU2.xlsx](Datos/AmazingMartEU2.xlsx)
+  Fuente: [AmazingMartEU2.xlsx](Datos/P1-AmazingMartEU2.xlsx)
 
   Construir el siguiente grafico:
 
@@ -164,13 +164,22 @@ Power BI
 
   
 
-* Scatterplots: 
-  Profit vs Sales y por Customer Name - Filtro en Report 
-  Modificar Scatterplots y añadir linea analitica y datos en rojo y verde por encima y debajo de cero. 
+* **Scatterplots:** 
+
+  Construir el siguiente grafico:
+
+  ![](Images/Scatter.PNG)
+
+  **Actividades:**
+
+  Profit vs Sales y por Customer Name
+
+  Filtro en Report 
+  Modificar Scatterplots y añadir linea analítica y datos en rojo y verde por encima y debajo de cero. 
 
 
 
-- Calculos y Medidas
+- Cálculos y Medidas
 
 - Preparación avanzada
 - Otras Visualizaciones
@@ -192,9 +201,15 @@ Publicar
 
 
 
+Reto: 
 
+Utilizando el archivo: [Reto](Archivo/Reto)
 
+Construir las siguientes paginas: 
 
+![](Images/Market Analysis.PNG)
 
+![](Images\Productor.PNG)
 
+![](Images/Analysis.PNG)
 
