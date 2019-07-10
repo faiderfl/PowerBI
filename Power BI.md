@@ -203,7 +203,7 @@ Publicar
 
 Reto: 
 
-Utilizando el archivo: [Reto](Archivo/Reto.pbix)
+Utilizando el archivo: [Reto](Archivo/Reto-Report.pbix)
 
 Construir las siguientes paginas: 
 
