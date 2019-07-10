@@ -203,13 +203,14 @@ Publicar
 
 Reto: 
 
-Utilizando el archivo: [Reto](Archivo/Reto)
+Utilizando el archivo: [Reto](Archivo/Reto.pbix)
 
 Construir las siguientes paginas: 
 
-![](Images/Market Analysis.PNG)
+![](Images/MarketAnalysis.PNG)
 
-![](Images\Productor.PNG)
+
+
+![](Images/Productor.PNG)
 
 ![](Images/Analysis.PNG)
-
