@@ -205,25 +205,27 @@
 
   
 
-![](Images/Target.PNG)
+  ![](Images/Target.PNG)
 
 
 
-**Actividades:**
+​	**Actividades:**
 
-Crear un join entre las tablas ListOfOrders y OrderBreakdown
+​	Crear un join entre las tablas ListOfOrders y OrderBreakdown
 
-Crear una agrupación por categoría + Año + Mes
+​	Crear una agrupación por categoría + Año + Mes
 
-Crear un join entre la tabla resultante y la tabla SalesTargets
+​	Crear un join entre la tabla resultante y la tabla SalesTargets
 
-Crear las medidas:
+​	Crear las medidas:
 
- Target Forniture = CALCULATE(sum('ListOfOrders+OrderBreakdown'[Target]);'ListOfOrders+OrderBreakdown'[Category]=="Furniture")
+​	 Target Forniture = 	CALCULATE(sum('ListOfOrders+OrderBreakdown'[Target]);'ListOfOrders+OrderBreakdown'[Category]=="Furniture")
 
-Target Office Supplies = CALCULATE(sum('ListOfOrders+OrderBreakdown'[Target]);'ListOfOrders+OrderBreakdown'[Category]=="Office Supplies")
+​	Target Office Supplies = 	CALCULATE(sum('ListOfOrders+OrderBreakdown'[Target]);'ListOfOrders+OrderBreakdown'[Category]=="Office Supplies")
 
-Target Technology = CALCULATE(sum('ListOfOrders+OrderBreakdown'[Target]);'ListOfOrders+OrderBreakdown'[Category]=="Technology")
+​	Target Technology = 	CALCULATE(sum('ListOfOrders+OrderBreakdown'[Target]);'ListOfOrders+OrderBreakdown'[Category]=="Technology")
+
+
 
 5. **Proceso Banco**
 
