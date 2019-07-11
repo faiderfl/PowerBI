@@ -195,68 +195,74 @@
 
   Crear nueva fuente de datos a partir de un Merge (Joins) y revisar los Appends (Unions)
 
-* **Cálculos y Medidas **
+  
+
+* Cálculos y Medidas
 
   Fuente: [P1-AmazingMartEU2.xlsx](Datos/P1-AmazingMartEU2.xlsx)
 
   Construir el siguiente grafico:
 
-  ![](Images/Target.PNG)
-
-  Actividades:
-
-  Crear un join entre las tablas ListOfOrders y OrderBreakdown
-
-  Crear una agrupación por categoría + Año + Mes
-
-  Crear un join entre la tabla resultante y la tabla SalesTargets
-
-  Crear las medidas:
-
-   Target Forniture = CALCULATE(sum('ListOfOrders+OrderBreakdown'[Target]);'ListOfOrders+OrderBreakdown'[Category]=="Furniture")
-
-  Target Office Supplies = CALCULATE(sum('ListOfOrders+OrderBreakdown'[Target]);'ListOfOrders+OrderBreakdown'[Category]=="Office Supplies")
-
-  Target Technology = CALCULATE(sum('ListOfOrders+OrderBreakdown'[Target]);'ListOfOrders+OrderBreakdown'[Category]=="Technology")
-
   
 
-* **Proceso Banco**
-
-* Exportar
-
-  PDF
-
-  csv
-
-  Excel
-
-  Power Point
-
-  Recortes
-
-* Publicar 
-
-  Archivo
-
-  Nube
-
-  Reporting
-
-  Dashboard y reportes
+![](Images/Target.PNG)
 
 
 
-* **Reto:**
+**Actividades:**
 
-Utilizando el archivo: [Reto](Archivo/Reto-Report.pbix)
+Crear un join entre las tablas ListOfOrders y OrderBreakdown
 
-Construir las siguientes paginas: 
+Crear una agrupación por categoría + Año + Mes
 
-![](Images/MarketAnalysis.PNG)
+Crear un join entre la tabla resultante y la tabla SalesTargets
+
+Crear las medidas:
+
+ Target Forniture = CALCULATE(sum('ListOfOrders+OrderBreakdown'[Target]);'ListOfOrders+OrderBreakdown'[Category]=="Furniture")
+
+Target Office Supplies = CALCULATE(sum('ListOfOrders+OrderBreakdown'[Target]);'ListOfOrders+OrderBreakdown'[Category]=="Office Supplies")
+
+Target Technology = CALCULATE(sum('ListOfOrders+OrderBreakdown'[Target]);'ListOfOrders+OrderBreakdown'[Category]=="Technology")
+
+5. **Proceso Banco**
 
 
 
-![](Images/Productor.PNG)
+6. **Exportar**
 
-![](Images/Analysis.PNG)
+   PDF
+
+   csv
+
+   Excel
+
+   Power Point
+
+   Recortes
+
+7. **Publicar** 
+
+   Archivo
+
+   Nube
+
+   Reporting
+
+   Dashboard y reportes
+
+   
+
+8. **Reto:**
+
+   Utilizando el archivo: [Reto](Archivo/Reto-Report.pbix)
+
+   Construir las siguientes paginas: 
+
+   ![](Images/MarketAnalysis.PNG)
+
+   
+
+   ![](Images/Productor.PNG)
+
+   ![](Images/Analysis.PNG)
