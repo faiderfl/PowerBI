@@ -26,9 +26,9 @@
 
 3. Utilización de Plantillas
 
-   Para el banco utilizaremos las plantillas que se encuentran en la ruta: <Ruta Oficial Banco>
+   Para el banco utilizaremos las plantillas que se encuentran en la ruta: [Plantillas Banco](http://comunidades.bancolombia.corp/Expertos/Paginas/00_BAT%20SubPaginas/Reporter%C3%ADa.aspx)
 
-   Para este curso tomaremos las mas actualizadas de la ruta: [PowerBI Plantillas y Temas](PowerBI Plantillas y Temas)
+   Para este curso tomaremos las mas actualizadas de la ruta: [PowerBI Plantillas y Temas](Plantillas-Temas)
 
    ![](Images/Plantilla.PNG)
 
@@ -142,7 +142,7 @@
 
   
 
-* Joins: 
+* Relaciones: 
 
   Fuente: [AmazingMartEU2.xlsx](Datos/P1-AmazingMartEU2.xlsx)
 
@@ -177,31 +177,77 @@
   Filtro en Report 
   Modificar Scatterplots y añadir linea analítica y datos en rojo y verde por encima y debajo de cero. 
 
+* Joins:
+
+  Fuentes: [P1-Airline-Comparison.xlsx](Datos/P1-Airline-Comparison.xlsx)
+
+  Construir el siguiente grafico:
+
+  ![](Images/Joins.PNG)
+
+  **Actividades:**
+
+  Comparar los datos de Airline1 y Airline1.
+
+  Eliminar columnas
+
+  Cambiar nombre de variables
+
+  Crear nueva fuente de datos a partir de un Merge (Joins) y revisar los Appends (Unions)
+
+* **Cálculos y Medidas **
+
+  Fuente: [P1-AmazingMartEU2.xlsx](Datos/P1-AmazingMartEU2.xlsx)
+
+  Construir el siguiente grafico:
+
+  ![](Images/Target.PNG)
+
+  Actividades:
+
+  Crear un join entre las tablas ListOfOrders y OrderBreakdown
+
+  Crear una agrupación por categoría + Año + Mes
+
+  Crear un join entre la tabla resultante y la tabla SalesTargets
+
+  Crear las medidas:
+
+   Target Forniture = CALCULATE(sum('ListOfOrders+OrderBreakdown'[Target]);'ListOfOrders+OrderBreakdown'[Category]=="Furniture")
+
+  Target Office Supplies = CALCULATE(sum('ListOfOrders+OrderBreakdown'[Target]);'ListOfOrders+OrderBreakdown'[Category]=="Office Supplies")
+
+  Target Technology = CALCULATE(sum('ListOfOrders+OrderBreakdown'[Target]);'ListOfOrders+OrderBreakdown'[Category]=="Technology")
+
+  
+
+* **Proceso Banco**
+
+* Exportar
+
+  PDF
+
+  csv
+
+  Excel
+
+  Power Point
+
+  Recortes
+
+* Publicar 
+
+  Archivo
+
+  Nube
+
+  Reporting
+
+  Dashboard y reportes
 
 
-- Cálculos y Medidas
 
-- Preparación avanzada
-- Otras Visualizaciones
-- Proceso Banco
-
-
-Exportar
-- PDF
-- csv
-- Excel
-- Power Point
-- Recortes
-
-Publicar 
-- Archivo
-- Nube
-- Reporting
-- Dashboard y reportes
-
-
-
-Reto: 
+* **Reto:**
 
 Utilizando el archivo: [Reto](Archivo/Reto-Report.pbix)
 
