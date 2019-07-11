@@ -177,7 +177,7 @@
   Filtro en Report 
   Modificar Scatterplots y añadir linea analítica y datos en rojo y verde por encima y debajo de cero. 
 
-* Joins:
+* **Joins:**
 
   Fuentes: [P1-Airline-Comparison.xlsx](Datos/P1-Airline-Comparison.xlsx)
 
