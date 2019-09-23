@@ -1,6 +1,6 @@
 # OBTENCIÓN DE DATOS
 
-![HUE](.\Imagenes\DcNg-aiV0AAXh-k.png)
+![HUE](.\Images\DcNg-aiV0AAXh-k.png)
 
 
 
