@@ -57,19 +57,19 @@
 
     
 
-  ![](Images/Unidades por departamento.png)
+  ![](Images/UnidadesDepartamento.png)
 
   - ¿Cuantas son las unidades vendidas por tipo de articulo y el porcentaje equivalente por cada uno?
 
-    ![](Images/Unidades por articulo.png)
+    ![](Images/UnidadesArticulo.png)
 
   - ¿Cuantas son las unidades compradas por cliente y el porcentaje equivalente por cada uno?}
 
-    ![](Images/Unidades por cliente.png)
+    ![](Images/UnidadesCliente.png)
 
   - ¿Cuantas son las unidades vendidas por departamento en cada zona y el porcentaje equivalente por cada uno?
 
-    <img src="Images/Unidades por departamento y zona.png" style="zoom:150%;" />
+    <img src="Images/UnidadesDepartamentoZona.png" style="zoom:150%;" />
 
 - **Diferentes tipos de visualización:**
 
