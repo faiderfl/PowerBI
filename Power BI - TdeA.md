@@ -61,7 +61,7 @@ Preguntas de negocio:
   - Formato condicional sobre el porcentaje con el fondo de las celdas.
   - Mostrar y quitar totales.
 
-![](Images/UnidadesDepartamento.png)
+![](Images/UnidadesDepartamento.PNG)
 
 - ¿Cuantas son las unidades vendidas por tipo de articulo y el porcentaje equivalente por cada uno?
 
@@ -71,7 +71,7 @@ Preguntas de negocio:
   - Formato condicional sobre el porcentaje con barras.
   - Mostrar y quitar totales.
 
-  ![](Images/UnidadesArticulo.png)
+  ![](Images/UnidadesArticulo.PNG)
 
 - ¿Cuantas son las unidades compradas por el top 5 de clientes y el porcentaje equivalente por cada uno?
 
@@ -91,7 +91,7 @@ Preguntas de negocio:
 
     
 
-  ![](Images/UnidadesCliente.png)
+  ![](Images/UnidadesCliente.PNG)
 
 - ¿Cuantas son las unidades vendidas por departamento en cada zona y el porcentaje equivalente por cada uno?
 
@@ -105,7 +105,7 @@ Preguntas de negocio:
   - Formato condicional.
   - Mostrar y quitar totales.
   
-  <img src="Images/UnidadesDepartamentoZona.png" style="zoom:200%;" />
+  <img src="Images/UnidadesDepartamentoZona.PNG" style="zoom:200%;" />
 
 **Diferentes tipos de visualización:**
 
