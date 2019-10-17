@@ -1,13 +1,13 @@
 
-# <u>**Power BI**</u>
+# <u>**Taller Power BI**</u>
 
-1. Primeros Pasos
+1. ###### Primeros Pasos
 
    Instalación de Power BI:
 
    ​	En caso de no tenerlo se puede descargar de la ruta: https://powerbi.microsoft.com/es-es/desktop
 
-2. Interfaz Grafica y componentes : 
+2. ###### Interfaz Grafica y componentes : 
 
    Algunos de los principales componentes de un tablero de Power BI son las fuentes de datos, las páginas,  los campos,  las visualizaciones y los menús.
 
@@ -29,19 +29,17 @@
 
    ![](Images/Campos1.PNG)
 
-3. Utilización de Plantillas
+3. ###### Utilización de Plantillas
 
-   Para el banco utilizaremos las plantillas que se encuentran en la ruta: [Plantillas](http://comunidades.bancolombia.corp/Expertos/Paginas/00_BAT%20SubPaginas/Reporter%C3%ADa.aspx)
+   Para este curso tomaremos un ejemplo de una plantilla que se encuentra en la ruta: [PowerBI Plantillas](Plantillas)
 
-   Para este curso tomaremos las mas actualizadas de la ruta: [PowerBI Plantillas y Temas](Plantillas-Temas)
-
-   ![](Images/Plantilla.PNG)
+   ![](Images/PlantillaTaller.PNG)
 
 
 
 4. **Visualizaciones:** 
 
-   Fuente de Datos:  [DATOS.xlsx](Datos/DATOS.xlsx)
+   Fuente de Datos:  [Base_EntrenamientoPBI.xlsx](Datos/Base_EntrenamientoPBI.xlsx)
 
    Actividades:
 
@@ -100,7 +98,7 @@ Preguntas de negocio:
   
   
   - Crear una tabla manual en POWER BI
-  - Hacer el join con la tabla de Productos 
+  - Hacer el merge (Join) con la tabla de Productos 
   - Crear la matriz.
   - Agregar en filas el departamento y zonas y en columnas la categorías de productos
   - Generar porcentaje del total
@@ -115,7 +113,7 @@ Estableciendo una descripción del negocio  a través del tiempo que nos permita
 
 Para esto podemos crear **graficas circular** (pie charts), **gráficos de barras** (bar charts) y **gráficos de líneas** entre muchos otros.	
 
-Grafica circular
+###### Grafica circular
 
 - Crear grafico circular
 - Mostrar leyendas en todas las posiciones con los colores respectivos.
@@ -124,47 +122,40 @@ Grafica circular
 - Modificar el titulo y sus propiedades.
 - Mostrar el grafico de anillos como alternativa.
 
-Grafico de barras:
+###### Grafico de barras
 
 + Crear grafico de barras
-
 + Ordenarlo por numero de unidades
-
 + Ponerle etiqueta de unidades en la base inferior
-
 + Cambiar el formato de las etiquetas y barras en tamaño y fuente.
-
 + Modificar el titulo y sus propiedades
 
-  
+###### Grafico de líneas  
 
-  Grafico de líneas  
++ Crear grafico de líneas
++ Convertir la fecha a jerarquías y mostrar las opciones de drill down 
++ Mostrar y modificar leyendas.
++ Modificar el titulo y sus propiedades
++ Crear grafico con totales y crear lineal analítica de proyección. 
 
-  + Crear grafico de líneas
-  + Convertir la fecha a jerarquías y mostrar las opciones de drill down 
-  + Mostrar y modificar leyendas.
-  + Modificar el titulo y sus propiedades
-  + Crear grafico con totales y crear lineal analítica de proyección. 
-
-Filtros
+###### Filtros
 
 + Crear filtro por fechas y mostrar alternativas 
 + Crear filtro por artículos
 + Crear filtros por cliente
 
-Tarjetas
+###### Tarjetas
 
 + Crear tarjeta de total de unidades
 + Crear tarjeta de total de artículos
 + Crear tarjeta de numero de clientes
-
-Crear filtro por clientes, modificarlo con búsquedas, seleccionar todos, cambiar a formato de lista desplegable.
++ Crear filtro por clientes, modificarlo con búsquedas, seleccionar todos, cambiar a formato de lista desplegable.
 
 ![](Images/DescripcionNegocio.PNG)
 
 
 
-Segmentación 
+###### Segmentación 
 
 También se puede realizar segmentación de clientes de acuerdo a las unidades compradas  y la utilidad que le presenta a la compañía.
 
@@ -184,24 +175,35 @@ Unos gráficos que nos permiten ver este tipo de segmentación son los gráficos
 
 ![](Images/Segmentacion.png)
 
-Métricas y nuevas columnas
+###### Métricas y nuevas columnas
 
-+ Crear columna de ventas total por facturas
-+ Crear columna de costo total por facturas
-+ Crear columna de utilidades 
++ Crear columna de ventas total por facturas: 
+
+  *Venta Total = tblFactura_Detalle[Unidades]*tblFactura_Detalle[Precio]*
+
++ Crear columna de costo total por facturas: 
+
+  *Costo Total = tblFactura_Detalle[Unidades]*tblFactura_Detalle[Costo]*
+
++ Crear columna de utilidades: 
+
+  *Utilidades = tblFactura_Detalle[Venta Total]-tblFactura_Detalle[Costo Total]*
+
 + Crear grafico que muestre la dispersión de Utilidades vs Unidades
+
 + Crear filtro por cliente 
+
 + Crear líneas de promedio por cada eje.
 
 ![](Images/SegmentacionClientes.PNG)
 
 
 
-* # **Series de tiempo:** (REVISAR)
+###### Series de tiempo 
 
-  Fuente:  [P1-Long-Term-Unemployment-Statistics.xlsx](Datos/P1-Long-Term-Unemployment-Statistics.xlsx)
+Fuente:  [P1-Long-Term-Unemployment-Statistics.xlsx](Datos/P1-Long-Term-Unemployment-Statistics.xlsx)
 
-  Importar los datos. Revisar los pasos que automáticamente hace Power BI.
+Importar los datos. Revisar los pasos que automáticamente hace Power BI.
 
 * **Line Chart**
 
@@ -209,104 +211,105 @@ Métricas y nuevas columnas
 
   ![](Images/SeriesTiempo.PNG)
 
-  **Actividades:** 
+  
 
-  Crear grafico de líneas para series de tiempo Unemployment por Periodo 
-  Visualizar por Año, Mes, Año - Mes unidos - Diferenciar Jerarquías de Periodo
-  Visualizar en Area Chart
-  Adicionar Gender para tener dos líneas comparativas
-  Cambiar el estilo de los Shapes (Líneas) y Markers
-  Agregar o cambiar a Age
-  Cambiar SUM por AVG en los values (Unemployed)
-  Crear Stacked area con Periodo y Age y mirar Legendas
+* Crear grafico de líneas para series de tiempo Unemployment por Periodo 
+
+* Visualizar por Año, Mes, Año - Mes unidos - Diferenciar Jerarquías de Periodo
+
+* Visualizar por Año, Mes, Año - Mes unidos - Diferenciar Jerarquías de Periodo
+
+* Visualizar por Año, Mes, Año - Mes unidos - Diferenciar Jerarquías de Periodo
+
+* Visualizar en Area Chart
+
+* Adicionar Gender para tener dos líneas comparativas
+
+* Cambiar el estilo de los Shapes (Líneas) y Markers
+
+* Agregar o cambiar a Age
+
+* Cambiar SUM por AVG en los values (Unemployed)
+
+* Crear Stacked area con Periodo y Age y mirar Legendas
 
   
 
   
 
-* **Mapas:** 
+**Mapas:** 
 
-  Fuente: [P1-SuperStoreUS-2015.xlsx
-  ](Datos/P1-SuperStoreUS-2015.xlsx
-  )
+Fuente: [P1-SuperStoreUS-2015.xlsx
+](Datos/P1-SuperStoreUS-2015.xlsx
+)
 
-  Construir el siguiente grafico:
+Construir el siguiente grafico:
 
-  ![](Images/Mapa1.PNG)
+![](Images/Mapa1.PNG)
 
-  
+Fill Map con la BD de Ordenes - Country + State of Province con Conditional formatting 
 
-  **Actividades:** 
+###### Relaciones
 
-  Fill Map con la BD de Ordenes - Country + State of Province con Conditional formatting 
+Fuente: [AmazingMartEU2.xlsx](Datos/P1-AmazingMartEU2.xlsx)
 
-  
+Construir el siguiente grafico:
 
-* Relaciones: 
-
-  Fuente: [AmazingMartEU2.xlsx](Datos/P1-AmazingMartEU2.xlsx)
-
-  Construir el siguiente grafico:
-
-  ![](Images/Mapa2.PNG)
-
-  **Actividades:**
-
-  Configurar relaciones en P1-AmazingMartEU2.xlsx entre: ListOfOrders y OrderBreakdown
-
-  Crear Jerarquias: Geography: Countr + State + City
-  Pintar en el mapa.
-  Crear una nuevo dato calculado (Measure):
-
-   Profit Margin = Sum(OrderBreakdown[Profit])/ sum(OrderBreakdown[Sales]) 
-
-  Data Color dependiente del Profit Margin
-
-  
-
-  
-
-* **Joins:**
-
-  Fuentes: [P1-Airline-Comparison.xlsx](Datos/P1-Airline-Comparison.xlsx)
-
-  Construir el siguiente grafico:
-
-  ![](Images/Joins.PNG)
-
-  **Actividades:**
-
-  Comparar los datos de Airline1 y Airline1.
-
-  Eliminar columnas
-
-  Cambiar nombre de variables
-
-  Crear nueva fuente de datos a partir de un Merge (Joins) y revisar los Appends (Unions)
-
-  
-
-* **Cálculos y Medidas**
-
-  Fuente: [P1-AmazingMartEU2.xlsx](Datos/P1-AmazingMartEU2.xlsx)
-
-  Construir el siguiente grafico:
-
-  
-
-  ![](Images/Target.PNG)
+![](Images/Mapa2.PNG)
 
 
 
-​		**Actividades:**
+Configurar relaciones en P1-AmazingMartEU2.xlsx entre: ListOfOrders y OrderBreakdown
 
-​		Crear un join entre las tablas ListOfOrders y OrderBreakdown
+Crear Jerarquias: Geography: Countr + State + City
+Pintar en el mapa.
+Crear una nuevo dato calculado (Measure):
 
-​		Crear una agrupación por categoría + Año + Mes
+ Profit Margin = Sum(OrderBreakdown[Profit])/ sum(OrderBreakdown[Sales]) 
 
-​		Crear un join entre la tabla resultante y la tabla SalesTargets
+Data Color dependiente del Profit Margin
 
-​		Crear las medidas:
+
+
+###### Joins
+
+Fuentes: [P1-Airline-Comparison.xlsx](Datos/P1-Airline-Comparison.xlsx)
+
+Construir el siguiente grafico:
+
+![](Images/Joins.PNG)
+
+
+
+Comparar los datos de Airline1 y Airline1.
+
+Eliminar columnas
+
+Cambiar nombre de variables
+
+Crear nueva fuente de datos a partir de un Merge (Joins) y revisar los Appends (Unions)
+
+
+
+**Cálculos y Medidas**
+
+Fuente: [P1-AmazingMartEU2.xlsx](Datos/P1-AmazingMartEU2.xlsx)
+
+Construir el siguiente grafico:
+
+
+
+![](Images/Target.PNG)
+
+
+
+Crear un join entre las tablas ListOfOrders y OrderBreakdown
+
+Crear una agrupación por categoría + Año + Mes
+
+Crear un join entre la tabla resultante y la tabla SalesTargets
+
+Crear las medidas:
 
 ​	 	 	
 
@@ -320,11 +323,7 @@ Target Technology = 	CALCULATE(sum('ListOfOrders+OrderBreakdown'[Target]);'ListO
 
 ​	
 
-5. **Proceso **
-
-
-
-6. **Reto:**
+###### 5. Reto:
 
 Utilizando el archivo: [Reto](Archivo/Reto-Report.pbix)
 
@@ -337,16 +336,6 @@ Construir las siguientes paginas:
 ![](Images/Productor.PNG)
 
 ![](Images/Analysis.PNG)
-
-
-
-
-
-Pendientes.
-
-Grupos de seguridad 
-
-Marcadores
 
 
 
