@@ -41,7 +41,7 @@
 
 4. **Visualizaciones:** 
 
-   Fuente de Datos:  [DATOS.xlsx](Datos/DATOS.xlsx)
+   Fuente de Datos:  [DATOS.xlsx](Datos/ Base_EntrenamientoPBI.xlsx)
 
    Actividades:
 
@@ -197,7 +197,7 @@ Métricas y nuevas columnas
 
 
 
-* # **Series de tiempo:** (REVISAR)
+* # **Series de tiempo:** 
 
   Fuente:  [P1-Long-Term-Unemployment-Statistics.xlsx](Datos/P1-Long-Term-Unemployment-Statistics.xlsx)
 
@@ -320,11 +320,9 @@ Target Technology = 	CALCULATE(sum('ListOfOrders+OrderBreakdown'[Target]);'ListO
 
 ​	
 
-5. **Proceso **
 
 
-
-6. **Reto:**
+**Reto:**
 
 Utilizando el archivo: [Reto](Archivo/Reto-Report.pbix)
 
@@ -337,16 +335,3 @@ Construir las siguientes paginas:
 ![](Images/Productor.PNG)
 
 ![](Images/Analysis.PNG)
-
-
-
-
-
-Pendientes.
-
-Grupos de seguridad 
-
-Marcadores
-
-
-
