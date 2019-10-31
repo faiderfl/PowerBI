@@ -41,7 +41,7 @@
 
 4. **Visualizaciones:** 
 
-   Fuente de Datos:  [DATOS.xlsx](Datos/ Base_EntrenamientoPBI.xlsx)
+   Fuente de Datos:  [DATOS](Datos/Base_EntrenamientoPBI.xlsx)
 
    Actividades:
 
