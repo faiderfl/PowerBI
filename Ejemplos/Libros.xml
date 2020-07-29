@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<catalogo>
+   <Libro id="1">
+      <autor>Gambardella, Matthew</autor>
+      <titulo>XML Developer's Guide</titulo>
+      <genero>Computer</genero>
+      <ventas>44,95</ventas>
+      <fecha>2000-10-01</fecha>
+   </Libro>
+   <Libro id="2">
+      <autor>Ralls, Kim</autor>
+      <titulo>Midnight Rain</titulo>
+      <genero>Fantasy</genero>
+      <ventas>5,95</ventas>
+      <fecha>2000-12-16</fecha>
+   </Libro>
+   <Libro id="3">
+      <autor>Corets, Eva</autor>
+      <titulo>Maeve Ascendant</titulo>
+      <genero>Fantasy</genero>
+      <ventas>5,95</ventas>
+      <fecha>2000-11-17</fecha>
+   </Libro>
+   <Libro id="4">
+      <autor>Corets, Eva</autor>
+      <titulo>Oberon's Legacy</titulo>
+      <genero>Fantasy</genero>
+      <ventas>5,95</ventas>
+      <fecha>2001-03-10</fecha>
+   </Libro>
+   <Libro id="5">
+      <autor>Corets, Eva</autor>
+      <titulo>The Sundered Grail</titulo>
+      <genero>Fantasy</genero>
+      <ventas>5,95</ventas>
+      <fecha>2001-09-10</fecha>
+   </Libro>
+   <Libro id="6">
+      <autor>Randall, Cynthia</autor>
+      <titulo>Lover Birds</titulo>
+      <genero>Romance</genero>
+      <ventas>4,95</ventas>
+      <fecha>2000-09-02</fecha>
+    </Libro>
+   <Libro id="7">
+      <autor>Thurman, Paula</autor>
+      <titulo>Splish Splash</titulo>
+      <genero>Romance</genero>
+      <ventas>4,95</ventas>
+      <fecha>2000-11-02</fecha>
+   </Libro>
+   <Libro id="8">
+      <autor>Knorr, Stefan</autor>
+      <titulo>Creepy Crawlies</titulo>
+      <genero>Horror</genero>
+      <ventas>4,95</ventas>
+      <fecha>2000-12-06</fecha>
+   </Libro>
+   <Libro id="9">
+      <autor>Kress, Peter</autor>
+      <titulo>Paradox Lost</titulo>
+      <genero>Science Fiction</genero>
+      <ventas>6,95</ventas>
+      <fecha>2000-11-02</fecha>
+   </Libro>
+   <Libro id="10">
+      <autor>O'Brien, Tim</autor>
+      <titulo>Microsoft .NET: The Programming Bible</titulo>
+      <genero>Computer</genero>
+      <ventas>36,95</ventas>
+      <fecha>2000-12-09</fecha>
+   </Libro>
+   <Libro id="11">
+      <autor>O'Brien, Tim</autor>
+      <titulo>MSXML3: A Comprehensive Guide</titulo>
+      <genero>Computer</genero>
+      <ventas>36,95</ventas>
+      <fecha>2000-12-01</fecha>
+   </Libro>
+   <Libro id="12">
+      <autor>Galos, Mike</autor>
+      <titulo>Visual Studio 7: A Comprehensive Guide</titulo>
+      <genero>Computer</genero>
+      <ventas>49,95</ventas>
+      <fecha>2001-04-16</fecha>
+   </Libro>
+</catalogo>
+
